@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #1a202c;
+  background-color: #fafafa;
+  font-family: "DotGothic16", sans-serif;
+  /* display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  grid-template-areas: "header main footer"; */
+}
