@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-const Main = styled.div`
+const MainStyle = styled.div`
   .main {
-    height: 90vh;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-areas: "main1 main2 main3";
@@ -12,7 +11,16 @@ const Main = styled.div`
       grid-area: main1;
     }
     .main-mid {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
       grid-area: main2;
+
+      .card-center {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        gap: 5rem;
+        margin: 0 auto;
+      }
     }
     .main-right {
       grid-area: main3;
@@ -20,4 +28,4 @@ const Main = styled.div`
   }
 `;
 
-export default Main;
+export default MainStyle;

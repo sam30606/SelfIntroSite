@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Header = styled.div`
+const HeaderStyle = styled.div`
   .header {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
@@ -8,7 +8,7 @@ const Header = styled.div`
     grid-gap: 0.5rem;
     align-items: center;
     background: #f1f1f1;
-
+    box-shadow: 0 2px 2px #00000040;
     .header-left {
       grid-area: header1;
       display: flex;
@@ -45,4 +45,4 @@ const Header = styled.div`
   }
 `;
 
-export default Header;
+export default HeaderStyle;

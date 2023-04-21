@@ -4,7 +4,7 @@ const AboutPage = () => {
   return (
     <MainStyle>
       <main className="main">
-        <div className="main-left"></div>
+        <div className="main-left">asdasdasdasd</div>
         <div className="main-mid">
           <div className="card-center">
             <Card></Card>
@@ -23,7 +23,7 @@ const AboutPage = () => {
             <Card></Card>
           </div>
         </div>
-        <div className="main-right"></div>
+        <div className="main-right">asdasdasd</div>
       </main>
     </MainStyle>
   );

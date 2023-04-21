@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Footer = styled.div`
+const FooterStyle = styled.div`
   .footer {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
@@ -19,4 +19,4 @@ const Footer = styled.div`
   }
 `;
 
-export default Footer;
+export default FooterStyle;

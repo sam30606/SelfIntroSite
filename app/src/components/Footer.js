@@ -3,9 +3,9 @@ const Footer = () => {
   return (
     <FooterStyle>
       <footer className="footer">
-        <div className="footer-left">asdasdasdasd</div>
-        <div className="footer-mid">asdasdasd</div>
-        <div className="footer-right">asdasdasd</div>
+        <div className="footer-left">footer-left</div>
+        <div className="footer-mid">footer-mid</div>
+        <div className="footer-right">footer-right</div>
       </footer>
     </FooterStyle>
   );
