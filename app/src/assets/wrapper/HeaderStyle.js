@@ -5,9 +5,9 @@ const Header = styled.div`
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-areas: "header1 header2 header3";
-    grid-gap: 10px;
+    grid-gap: 0.5rem;
     align-items: center;
-    background: #f5f5f5;
+    background: #f1f1f1;
 
     .header-left {
       grid-area: header1;

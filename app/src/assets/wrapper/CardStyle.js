@@ -1,6 +1,5 @@
 import styled from "styled-components";
-
-const Main = styled.div`
+const Card = styled.div`
   .main {
     height: 90vh;
     display: grid;
@@ -20,4 +19,4 @@ const Main = styled.div`
   }
 `;
 
-export default Main;
+export default Card;
