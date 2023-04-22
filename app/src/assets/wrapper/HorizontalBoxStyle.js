@@ -8,7 +8,6 @@ const HorizontalBoxStyle = styled.div`
     border-color: #212529;
     min-height: 40vh;
     .title {
-      position: absolute;
       display: inline-block;
       background-color: #ffffff;
       text-transform: capitalize;
