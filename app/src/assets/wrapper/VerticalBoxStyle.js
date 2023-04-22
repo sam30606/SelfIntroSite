@@ -19,7 +19,7 @@ const VerticalBoxStyle = styled.div`
       overflow: hidden;
       .title {
         text-transform: capitalize;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
       }
       p {
         font-weight: normal;

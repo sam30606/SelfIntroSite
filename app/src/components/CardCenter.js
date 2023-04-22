@@ -8,6 +8,7 @@ export const CardCenter = () => {
       <div className="card-center">
         <Card></Card>
         <Card></Card>
+        <Card></Card>
       </div>
     </CardCenterSytle>
   );

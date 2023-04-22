@@ -5,14 +5,13 @@ const CardStyle = styled.div`
     position: relative;
     background-color: #ffffff;
     display: grid;
-    grid-template-rows: 60% 40%;
+    grid-template-rows: 70% 30%;
     grid-template-areas:
       "card1"
       "card2";
     align-items: top;
-    min-height: 35rem;
-    max-height: 45rem;
-
+    min-height: 25rem;
+    max-height: 30rem;
     border-color: #212529;
     border-style: solid;
     border-width: 0.125rem 0;
@@ -51,6 +50,18 @@ const CardStyle = styled.div`
       grid-area: card1;
       word-break: break-all;
       overflow: hidden;
+      padding-top: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        object-position: center center;
+        aspect-ratio: 1/1;
+        height: auto/ 100%;
+      }
     }
     .card-down {
       padding: 1rem;
@@ -66,10 +77,18 @@ const CardStyle = styled.div`
       }
     }
   }
+  .nes-btn {
+    visibility: hidden;
+    top: -95%;
+    transform: scale(0.9, 0.9);
+    letter-spacing: 0.5rem;
+  }
   .card:hover {
-    /* transform: scale(1, 1); */
     transition: all 0.3s ease-out;
     transform: scale(1.1, 1.1);
+    .nes-btn {
+      visibility: visible;
+    }
   }
 `;
 

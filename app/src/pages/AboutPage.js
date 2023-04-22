@@ -11,7 +11,9 @@ const AboutPage = () => {
           <VerticalBox></VerticalBox>
           <div className="hl"></div>
           <HorizontalBox></HorizontalBox>
+          <div className="hl"></div>
           <HorizontalBox></HorizontalBox>
+          <div className="hl"></div>
           <HorizontalBox></HorizontalBox>
         </div>
         <div className="main-right"></div>
