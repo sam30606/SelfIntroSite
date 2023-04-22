@@ -6,7 +6,7 @@ const HorizontalBoxStyle = styled.div`
     border-top: solid;
     border-width: 0.3rem;
     border-color: #212529;
-    min-height: 40vh;
+    min-height: 30vh;
     .title {
       display: inline-block;
       background-color: #ffffff;
@@ -20,7 +20,7 @@ const HorizontalBoxStyle = styled.div`
       word-break: break-all;
       overflow: hidden;
       .sub {
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         padding-bottom: 1rem;
       }
       p {

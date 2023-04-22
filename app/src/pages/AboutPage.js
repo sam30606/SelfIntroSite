@@ -11,6 +11,8 @@ const AboutPage = () => {
           <VerticalBox></VerticalBox>
           <div className="hl"></div>
           <HorizontalBox></HorizontalBox>
+          <HorizontalBox></HorizontalBox>
+          <HorizontalBox></HorizontalBox>
         </div>
         <div className="main-right"></div>
       </main>

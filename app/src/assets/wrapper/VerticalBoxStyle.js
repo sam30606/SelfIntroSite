@@ -4,7 +4,7 @@ const VerticalBoxStyle = styled.div`
   .verticalBox {
     display: flex;
     flex-direction: row;
-    min-height: 40vh;
+    min-height: 30vh;
     margin: auto;
     background-color: #ffffff;
     .verticalBox-left {
