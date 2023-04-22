@@ -9,6 +9,8 @@ const HeaderStyle = styled.div`
     align-items: center;
     background: #f1f1f1;
     box-shadow: 0 2px 2px #00000040;
+    word-break: break-all;
+    overflow: hidden;
     .header-left {
       grid-area: header1;
       display: flex;

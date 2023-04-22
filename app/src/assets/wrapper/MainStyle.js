@@ -14,13 +14,6 @@ const MainStyle = styled.div`
       padding-top: 1.5rem;
       padding-bottom: 1.5rem;
       grid-area: main2;
-
-      .card-center {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-        gap: 5rem;
-        margin: 0 auto;
-      }
     }
     .main-right {
       grid-area: main3;
