@@ -12,7 +12,7 @@ const CardStyle = styled.div`
     align-items: top;
     min-height: 35rem;
     max-height: 45rem;
-    letter-spacing: 0.1rem;
+
     border-color: #212529;
     border-style: solid;
     border-width: 0.125rem 0;

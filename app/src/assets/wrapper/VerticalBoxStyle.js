@@ -4,8 +4,9 @@ const VerticalBoxStyle = styled.div`
   .verticalBox {
     display: flex;
     flex-direction: row;
-    width: 70%;
+    min-height: 40vh;
     margin: auto;
+    background-color: #ffffff;
     .verticalBox-left {
       flex: auto;
       display: flex;
@@ -16,7 +17,6 @@ const VerticalBoxStyle = styled.div`
       padding-left: 5rem;
       word-break: break-all;
       overflow: hidden;
-      background-color: #ffffff;
       .title {
         text-transform: capitalize;
         font-size: 1.5rem;
@@ -33,7 +33,7 @@ const VerticalBoxStyle = styled.div`
     }
     .verticalBox-right {
       flex: auto;
-      background-color: #ffffff;
+
       width: 50%;
       padding: 0.5rem;
       display: flex;
@@ -43,11 +43,12 @@ const VerticalBoxStyle = styled.div`
       gap: 2rem;
       img {
         max-width: 50%;
-        max-height: 80%;
+        max-height: 100%;
         object-fit: cover;
         object-position: center center;
+        aspect-ratio: 1/1;
         height: auto/ 100%;
-        border-radius: 50%;
+        border-radius: 100%;
       }
 
       .iconCenter {

@@ -1,5 +1,6 @@
 import MainStyle from "../assets/wrapper/MainStyle";
 import { VerticalBox } from "../components/VerticalBox";
+import { HorizontalBox } from "../components/HorizontalBox";
 
 const AboutPage = () => {
   return (
@@ -8,6 +9,8 @@ const AboutPage = () => {
         <div className="main-left"></div>
         <div className="main-mid">
           <VerticalBox></VerticalBox>
+          <div className="hl"></div>
+          <HorizontalBox></HorizontalBox>
         </div>
         <div className="main-right"></div>
       </main>
