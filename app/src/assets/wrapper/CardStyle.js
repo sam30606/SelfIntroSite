@@ -17,7 +17,6 @@ const CardStyle = styled.div`
     border-width: 0.125rem 0;
     box-shadow: -0.25rem 0 0 -0.125rem, 0.25rem 0 0 -0.125rem;
     z-index: 1;
-    cursor: pointer;
 
     &:before {
       background-color: inherit;
@@ -77,8 +76,10 @@ const CardStyle = styled.div`
       }
     }
   }
-  .nes-btn {
+  #hiddenButton {
     visibility: hidden;
+  }
+  .nes-btn {
     top: -95%;
     transform: scale(0.9, 0.9);
     letter-spacing: 0.5rem;
@@ -86,7 +87,7 @@ const CardStyle = styled.div`
   .card:hover {
     transition: all 0.3s ease-out;
     transform: scale(1.1, 1.1);
-    .nes-btn {
+    #hiddenButton {
       visibility: visible;
     }
   }

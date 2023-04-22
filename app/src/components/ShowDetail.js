@@ -1,14 +1,22 @@
+import ShowDetailStyle from "../assets/wrapper/ShowDetailStyle";
+
 export const ShowDetail = (props) => {
   return props.trigger ? (
-    <div className="popup">
-      <div className="popup-inner">
-        <button className="close-btn" onClick={() => props.setButtonPop(false)}>
-          close
-        </button>
-        <h3>My Popup</h3>
-        <p>This is my time triggered popup.</p>
+    <ShowDetailStyle>
+      <div className="shadow">
+        <div className="showDetail">
+          <i
+            className="nes-pointer nes-icon close is-small"
+            onClick={() => props.setButtonPop(false)}
+          ></i>
+          <div className="title">My Popup</div>
+          <p>This is my time triggered popup.</p>
+          <a class="nes-btn" href="https://www.google.com">
+            前往頁面
+          </a>
+        </div>
       </div>
-    </div>
+    </ShowDetailStyle>
   ) : (
     ""
   );
