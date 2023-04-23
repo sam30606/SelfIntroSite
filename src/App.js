@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<RootPage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/sideproject" element={<SidePage />} />
+        <Route path="/sideprojects" element={<SidePage />} />
       </Routes>
       <Footer></Footer>
     </BrowserRouter>
