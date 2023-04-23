@@ -21,7 +21,7 @@ export const Card = () => {
         <button
           id="hiddenButton"
           type="button"
-          class="nes-btn"
+          className="nes-btn"
           onClick={() => setButtonPop(true)}
         >
           詳細介紹

@@ -11,7 +11,7 @@ export const ShowDetail = (props) => {
           ></i>
           <div className="title">My Popup</div>
           <p>This is my time triggered popup.</p>
-          <a class="nes-btn" href="https://www.google.com">
+          <a className="nes-btn" href="https://www.google.com">
             前往頁面
           </a>
         </div>
