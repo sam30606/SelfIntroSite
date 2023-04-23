@@ -21,8 +21,7 @@ export const RootPageStyle = styled.div`
       display: grid;
       grid-template-areas:
         "a a c"
-        ". b b"
-        ". . .";
+        ". b b";
 
       gap: 0;
       .title {
