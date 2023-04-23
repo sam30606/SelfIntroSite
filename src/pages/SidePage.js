@@ -1,6 +1,6 @@
 import MainStyle from "../assets/wrapper/MainStyle";
 import { CardCenter } from "../components/CardCenter";
-const AboutPage = () => {
+export const SidePage = () => {
   return (
     <MainStyle>
       <main className="main">
@@ -13,5 +13,3 @@ const AboutPage = () => {
     </MainStyle>
   );
 };
-
-export default AboutPage;

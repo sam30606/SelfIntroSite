@@ -9,9 +9,9 @@ export const ShowDetail = (props) => {
             className="nes-pointer nes-icon close is-small"
             onClick={() => props.setButtonPop(false)}
           ></i>
-          <div className="title">My Popup</div>
-          <p>This is my time triggered popup.</p>
-          <a className="nes-btn" href="https://www.google.com">
+          <div className="title">{props.title}</div>
+          <p>{props.intro}</p>
+          <a className="nes-btn" href={props.project_url}>
             前往頁面
           </a>
         </div>

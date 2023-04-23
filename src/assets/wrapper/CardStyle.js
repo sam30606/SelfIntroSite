@@ -17,7 +17,7 @@ const CardStyle = styled.div`
     border-width: 0.125rem 0;
     box-shadow: -0.25rem 0 0 -0.125rem, 0.25rem 0 0 -0.125rem;
     z-index: 1;
-
+    white-space: pre-wrap;
     &:before {
       background-color: inherit;
       border: inherit;
@@ -71,6 +71,7 @@ const CardStyle = styled.div`
       .title {
         text-transform: capitalize;
         font-size: 1.2rem;
+        padding-bottom: 1rem;
       }
       p {
         font-weight: normal;

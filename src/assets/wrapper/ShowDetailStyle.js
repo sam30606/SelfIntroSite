@@ -12,6 +12,7 @@ const ShowDetailStyle = styled.div`
     justify-content: center;
     align-items: center;
     z-index: 100;
+    white-space: pre-wrap;
     .showDetail {
       position: relative;
       padding: 2rem;
@@ -27,6 +28,7 @@ const ShowDetailStyle = styled.div`
       }
       p {
         font-weight: normal;
+        line-height: 3rem;
       }
       i {
         position: absolute;

@@ -1,5 +1,5 @@
 import FooterStyle from "../assets/wrapper/FooterStyle";
-const Footer = () => {
+export const Footer = () => {
   return (
     <FooterStyle>
       <footer className="footer">
@@ -16,5 +16,3 @@ const Footer = () => {
     </FooterStyle>
   );
 };
-
-export default Footer;

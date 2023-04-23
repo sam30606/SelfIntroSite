@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import HeaderStyle from "../assets/wrapper/HeaderStyle";
-const Header = () => {
+export const Header = () => {
   return (
     <HeaderStyle>
       <header className="header">
@@ -19,5 +19,3 @@ const Header = () => {
     </HeaderStyle>
   );
 };
-
-export default Header;

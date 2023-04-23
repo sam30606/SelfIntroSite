@@ -7,6 +7,7 @@ const HorizontalBoxStyle = styled.div`
     border-width: 0.3rem;
     border-color: #212529;
     min-height: 30vh;
+    white-space: pre-wrap;
     .title {
       display: inline-block;
       background-color: #ffffff;

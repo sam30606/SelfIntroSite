@@ -3,11 +3,17 @@ import ReactDOM from "react-dom/client";
 import "./index.scss";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { AboutProvider } from "./context/AboutContext";
+import { SideProvider } from "./context/SideContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <SideProvider>
+      <AboutProvider>
+        <App />
+      </AboutProvider>
+    </SideProvider>
   </React.StrictMode>
 );
 
