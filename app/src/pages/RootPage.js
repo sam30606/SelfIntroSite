@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import { HomePageStyle } from "../assets/wrapper/HomePageStyle";
+import { RootPageStyle } from "../assets/wrapper/RootPageStyle";
 
-export const HomePage = () => {
+export const RootPage = () => {
   return (
-    <HomePageStyle>
+    <RootPageStyle>
       <div className="home">
         <div className="content animate__animated animate__shakeY">
           <div className="title">楊詠勝</div>
@@ -13,6 +13,6 @@ export const HomePage = () => {
           </Link>
         </div>
       </div>
-    </HomePageStyle>
+    </RootPageStyle>
   );
 };

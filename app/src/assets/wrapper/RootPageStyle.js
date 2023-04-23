@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HomePageStyle = styled.div`
+export const RootPageStyle = styled.div`
   .home {
     position: fixed;
     top: 0;
