@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+import { HomePage } from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import SidePage from "./pages/SidePage";
 import Header from "./components/Header";
@@ -11,7 +12,8 @@ function App() {
     <BrowserRouter>
       <Header></Header>
       <Routes>
-        <Route path="/" element={<AboutPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="/sideproject" element={<SidePage />} />
       </Routes>
       <Footer></Footer>
