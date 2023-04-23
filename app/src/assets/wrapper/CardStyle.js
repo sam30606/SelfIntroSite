@@ -67,7 +67,7 @@ const CardStyle = styled.div`
       grid-area: card2;
       word-break: break-all;
       overflow: hidden;
-      box-shadow: inset 0 -0.5rem 0.5rem #00000021;
+      box-shadow: inset 0 -0.5rem 0.5rem -0.3rem #00000021;
       .title {
         text-transform: capitalize;
         font-size: 1.2rem;
